@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
  margin-top: .3rem;
 }
 
-.default-background{
+.default-background, .about-background{
  min-height: 100vh;
  display: flex;
  align-items: center;
@@ -53,4 +53,6 @@ h1, h2, h3, h4, h5, h6{
  background: var(--mainBrown);
 }
 
-
+.about-background{
+ min-height: 60vh;
+}
